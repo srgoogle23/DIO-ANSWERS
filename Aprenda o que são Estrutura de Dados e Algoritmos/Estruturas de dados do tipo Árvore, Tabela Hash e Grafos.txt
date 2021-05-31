@@ -1,0 +1,29 @@
+Qual o nome da representação dos objetos em um grafo?
+Vértices ou Nós.
+
+Quais os nomes dos elementos existentes na estrutura Tabela Hash?
+Chaves e valores.
+
+Qual o nome da função que causa o espalhamento de dados numa Tabela Hash?
+Hashing.
+
+De que forma ficam estruturados os elementos em uma Tabela Hash?
+Não ordenada.
+
+Quais os outros nomes dados a estrutura Tabela Hash?
+Tabela de dispersão ou Tabela de espalhamento.
+
+O que são grafos?
+São estruturas que permitem programar a relação entre objetos.
+
+O que é uma estrutura do tipo Árvore?
+É uma estrutura de dados que organiza seus elementos de forma hierárquica.
+
+Qual o nome da representação de um relacionamento em um grafo?
+Arestas.
+
+Quais os elementos existentes na estrutura árvore?
+Raiz e nós (folhas).
+
+O que é uma estrutura do tipo Tabela Hash?
+É uma estrutura de dados especial, que associa chaves de pesquisa a valores.

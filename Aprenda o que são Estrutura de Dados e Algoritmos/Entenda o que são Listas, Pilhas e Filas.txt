@@ -1,0 +1,29 @@
+Como é feito o acesso aos itens de uma pilha?
+O acesso aos itens de uma pilha é restrito – somente um item pode ser lido ou removido por vez.
+
+Qual o critério utilizado pela pilha tipo FIFO?
+O primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+
+Para que serve a Estrutura do tipo Pilha?
+É uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado.
+
+Para que serve uma estrutura de dados do tipo Lista?
+Estrutura de Dados do tipo Lista, armazenam dados de um determinado tipo em uma ordem específica.
+
+Qual conceito da estrutura do tipo Pilha é também utilizado na estrutura Fila?
+FIFO.
+
+Qual a diferença das listas ligadas para as duplamente ligadas?
+A lista Ligada é unidirecional e a Duplamente Ligada é bidirecional.
+
+Quais os dois tipos conhecidos de estruturas do tipo Lista?
+Ligadas e Duplamente Ligadas.
+
+Qual o critério utilizado pela pilha tipo LIFO?
+O primeiro elemento a ser retirado é o último que tiver sido inserido.
+
+Quais as siglas corretas dos dois tipos de pilhas existentes (tanto em inglês como português)?
+LIFO (UEPS) e FIFO (PEPS).
+
+Qual a regra utilizada em uma estrutura do tipo Fila?
+O elemento removido é o que está na estrutura há mais tempo.
