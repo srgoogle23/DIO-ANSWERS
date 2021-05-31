@@ -1,0 +1,29 @@
+Podemos definir lógica como?
+Sequência coerente, regular e necessária de acontecimentos, coisas.
+
+Podemos definir fluxograma como?
+Fluxograma é uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados.
+
+Qual a melhor definição para lógica de programação?
+Contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema.
+
+Analise o pseudocódigo a seguir:
+9
+
+Podemos definir pseudocódigo como?
+Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples.
+
+O que é uma variável?
+Uma variável é um espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo.
+
+Como podemos definir as tomadas de decisão em um algoritmo?
+Quando ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução.
+
+Metacognição pode ser definida como?
+Pensar como você pensa.
+
+Analise o código a seguir:
+4
+
+Podemos definir um algoritmo como?
+Uma sequência de passos que resolve um problema.

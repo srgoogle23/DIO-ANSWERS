@@ -1,0 +1,29 @@
+Defina o que é concatenação?
+Concatenação é um termo usado em computação para designar a operação de unir o conteúdo de duas strings.
+
+Analise o pseudocódigo abaixo:
+Seu ano de nascimento é: 1979
+
+Analise o pseudocódigo abaixo:
+da Silva Pereira
+
+O que é uma estrutura de repetição?
+Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador.
+
+Observe o pseudocódigo abaixo:
+Você deve escolher as opções 1, 2 ou 3.
+
+O que é uma matriz?
+Uma matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória.
+
+Analise o pseudocódigo abaixo:
+Uva
+
+Observe o pseudocódigo abaixo:
+Parabéns!! Você foi aprovado!!
+
+Analise o pseudocódigo abaixo:
+100
+
+Qual é uma das funções das linguagens de programação?
+A função das linguagens de programação é servir de um meio de comunicação entre computadores e humanos.
