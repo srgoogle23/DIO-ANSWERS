@@ -1,0 +1,29 @@
+Marque a opção correta com a ordem de performance das implementações da interface Set:
+HashSet > LinkedHashSet > TreeSet
+
+Quais são as interfaces que estendem diretamente da interface Collection?
+List, Set e Queue
+
+Dada a lista List<String> numeros = List.of(“1”, “2”, “5”, “3”), como fazemos para exibir no console a média dessa lista?
+System.out.print(numeros.stream().mapToInt(Integer::parseInt).average());
+
+Qual método utilizamos para adicionar ou atualizar um elemento em um Map, passando como argumento “key” e “value”?
+Map.put(key, value)
+
+Marque a opção com as principais características da interface List:
+Permite inserção de elementos duplicados e obrigatoriamente garante a ordem de inserção
+
+O que é uma coleção na linguagem Java?
+É um objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de uma única unidade.
+
+Sobre ordenação de um Map, escolha a alternativa correta:
+É possível ordenar um Map pelo valor
+
+Dado o conjunto Set<String> coresDaBandeiraDoBrasil = new TreeSet<>(Arrays.asList("verde", "amarelo", "azul", "branco")), o que aparecerá no console quando chamamos o System.out.println(coresDaBandeiraDoBrasil)?
+[amarelo, azul, branco, verde]
+
+Qual a função da operação map()?
+Converter cada elemento recebido em um outro objeto, de acordo com a função passada.
+
+Dado uma lista List<Character> consoantesMeuNome = Arrays.asList('c', 'm', 'l', 'c', 'v', 'l', 'c', 'n', 't'); qual o resultado da chamada System.out.println(consoantesMeuNome);
+[c, m, l, c, v, l, c, n, t]
