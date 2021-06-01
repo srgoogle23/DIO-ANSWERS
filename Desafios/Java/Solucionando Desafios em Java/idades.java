@@ -16,23 +16,17 @@ import java.util.Scanner;
 public class  Desafio {
 	
     public static void main(String[] args) throws IOException {
-        Scanner ent = new Scanner(System.in);
-        
-        double num, soma = 0;
-        int cont = 0;
-        
-        do{
-            num = ent.nextDouble(); // usuario digita um número
-            
-            if(num >= 0){
-                soma = num + soma; 
-                cont++; 
-            }
-        } while(num >= 0);
-        
-        double media = soma / cont;
-        
-        System.out.println(String.format("%.2f", media));
+		int age;
+		int totalNum = 0,totalAge = 0;
+		float ageAverage;
+		Scanner input =new Scanner(System.in);
+		int i =1;
+		while (((age = input.nextInt()) >= 0)) {
+			totalAge += age;
+			totalNum += i;
+		}
+		ageAverage = (float)((float)totalAge / (totalNum));
+		System.out.printf("%.2f\n",ageAverage);
     }
 	
 }
