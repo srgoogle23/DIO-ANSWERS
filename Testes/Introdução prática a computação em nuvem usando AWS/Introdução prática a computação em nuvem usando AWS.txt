@@ -1,0 +1,26 @@
+O que é o Amazon Cognito?
+Fornece autenticação, autorização e gerenciamento de usuários para seus aplicativos móveis e web.
+
+Quais os principais componentes do Amazon Cognito?
+É composto por grupos de usuários e grupos de identidades, componentes que integram os mecanismos de autorização e autenticação.
+
+Quais das alternativas são os cinco pilares da AWS?
+Segurança, Eficiência/Performance, Confiabilidade, Excelência Operacional e Otimização de Custos.
+
+O que é necessário adicionar para permitir o uso de recursos como DynamoDB, Lambda, CloudWatch?
+
+Qual a arquitetura prática do AWS vista neste curso?
+API HTTP/REST com AWS API Gateway, Configuração de permissões com AWS IAM e Banco de dados NoSQL com AWS DynamoDB.
+
+Em relação às Execution Roles, é possível editar e criar novas funções?
+
+Por que durante a parte prática da aula ocorreu o erro no User dynaboDB:PutItem?
+Devido à falta de políticas de permissões no autorizador Lambda
+
+O que é o DynamoDB?
+Banco de dados não relacional (NoSQL), com suporte a chave-valor e documentos, que oferece alto desempenho em qualquer escala, além de ser totalmente gerenciado.
+
+Para que serve o API Gateway?
+
+Quais as diferenças do DynamoDB para outros bancos de dados?
+Banco de dados não relacional (NoSQL) de alta performance e disponibilidade, no qual o tempo de resposta é de 10 milissegundos em média. Além disso, não possui servidores para gerenciar, o que facilita sua configuração e uso.
