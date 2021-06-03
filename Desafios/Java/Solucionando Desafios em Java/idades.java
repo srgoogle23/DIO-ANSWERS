@@ -13,20 +13,23 @@ A média deve ser impressa com dois dígitos após o ponto decimal.
 import java.io.IOException;
 import java.util.Scanner;
 
-public class  Desafio {
+public class  Desafio
+{
 	
-    public static void main(String[] args) throws IOException {
-		int age;
-		int totalNum = 0,totalAge = 0;
-		float ageAverage;
-		Scanner input =new Scanner(System.in);
-		int i =1;
-		while (((age = input.nextInt()) >= 0)) {
-			totalAge += age;
-			totalNum += i;
-		}
-		ageAverage = (float)((float)totalAge / (totalNum));
-		System.out.printf("%.2f\n",ageAverage);
+    public static void main(String[] args) throws IOException
+    {
+        Scanner leitor = new Scanner(System.in);
+        int n, count = 0;
+        double s = 0.0;
+        n = leitor.nextInt();
+        while(true) {
+           if(n > 0 ) {
+            s += n;
+            count++;
+           }else break;
+           n = leitor.nextInt();
+        }
+        System.out.println(String.format("%.2f", s / count));
     }
 	
 }
