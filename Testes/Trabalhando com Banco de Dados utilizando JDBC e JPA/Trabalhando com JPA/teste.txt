@@ -1,0 +1,29 @@
+São bem conhecidas e utilizadas como implementação da especificação o JPA.
+Hibernate e EclipseLink
+
+Foi proposto um modelo de mapeamento chamado ______ para representar tabelas de um banco de dados relacional através de classes Java. Neste modelo as tabelas, colunas e tuplas do banco de dados são representadas como classes, atributos e objeto respectivamente.
+Mapeamento Objeto Relacional (ORM)
+
+_______ é a especificação oficial que descreve como deve ser o comportamento dos frameworks Java ORM (Mapeamento Objeto Relacional) que desejarem IMPLEMENTAR a sua especificação. Logo SOMENTE com essa especificação não será possível executar operações entre a aplicação e o banco de dados.
+Java Persistence API (JPA)
+
+Existem as annotations de relacionamento que são utilizadas para representar as iterações s entre as entidades (no banco de dados são utilizadas as chaves estrangeiras para representar as interações entre os bancos de dados). Uma possível annotation que pode ser utilizada para representar relacionamento entre entidades é:
+@OneToOne
+
+A interface _______  é utilizada para gerenciar o ciclo de vida das entidades. Os principais utilizados são find, persist e remove.
+EntityManager
+
+O _______ é uma linguagem de consulta independente orientada a objetos definida pelo JPA. Existe uma alternativa a essa linguagem a partir do JPA 2.0 chamada _______, que é muito fácil para construir consultas dinâmicas, pois é possível detectar erros no momento de compilação.
+Java Persistence Query Language (JPQL) - JPA Criteria API
+
+Apesar de ser SOMENTE a especificação, o JPA possui algumas classes, interfaces e anotações que ajudam o desenvolvedor a abstrair o código. Esses artefatos estão presentes no pacote ________ que ajudam a manter o código independente da implementação utilizada. Lembrando que para persistir dados com JPA, não é preciso escolher uma implementação que irá executar todo o trabalho.
+javax.persistence
+
+Uma aplicação JAVA que esteja utilizando as especificações do JPA terão que criar o arquivo _________ para configurar os parâmetros de conexão com o banco de dados.
+persistence.xml
+
+A anotação ________ indica a aplicação que os OBJETOS da classe especificada serão persistidos no banco de dados. Também podem ser utilizadas outras anotações para auxiliar no mapeamento da classe, tais como: @id, @column, @table, @OneToMany e @ManyToOne.
+@Entity
+
+Para persistir as operações de mudanças no banco de dados através das entidades JPA, é necessário utilizar os seguintes mpetodos do EntityTransaction:
+begin e commit
