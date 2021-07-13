@@ -1,0 +1,29 @@
+O que é o pgAdmin?
+Uma interface gratuita para interação com o banco de dados PostgreSQL.
+
+As colunas de uma tabela são também chamadas de:
+Atributos da tabela.
+
+Qual é o modelo mais comum de banco de dados?
+Modelo relacional.
+
+Indique a alternativa que apresenta três características do PostgreSQL:
+Suporte a dados geográficos (PostGIS), Linguagem procedural também em Python, Opensource.
+
+O que são informações?
+São dados agrupados e com uma definição atribuída, gerando valor.
+
+Onde estão armazenados os dados no modelo relacional?
+Armazenados em tabelas.
+
+O que são dados?
+São fatos brutos estocados sem qualquer alteração.
+
+Para instalar o PostgreSQL no Windows nós precisamos:
+Informar na instalação a porta do banco de dados que por padrão é 5432.
+
+O que significa a sigla SGBD?
+Sistema gerenciador de banco de dados.
+
+Quais são as duas principais colunas de uma tabela?
+Chave primária e chave estrangeira.

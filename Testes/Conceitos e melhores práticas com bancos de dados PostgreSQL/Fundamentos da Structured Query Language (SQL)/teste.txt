@@ -1,0 +1,29 @@
+Qual a diferença entre os comandos TRUNCATE RESTART IDENTITY e TRUNCATE CONTINUE IDENTITY?
+RESTART IDENTITY reinicia os campos seriais para um valor escolhido enquanto CONTINUE IDENTITY não reinicia os valores seriais.
+
+Qual a melhor prática para se evitar erros de duplicidade de registros ao inserir novo dado em uma tabela?
+INSERT ON CONFLICT
+
+Qual o tipo de relacionamento entre tabelas que cria uma matriz com todos os valores?
+CROSS JOIN
+
+Quais são os comandos permitidos em uma CTE?
+INSERT, UPDATE, SELECT, DELETE
+
+O resultado 78.50 é obtido com o seguinte comando:
+SELECT AVG(IDADE) + SUM(ID) FROM tabela
+
+Por que é importante não esquecer a cláusula WHERE em comandos de UPDATE e DELETE?
+Para evitar a atualização de todos os registros da tabela.
+
+Qual a diferença entre as condições LIKE e ILIKE?
+ILIKE é case insensitive e LIKE é case sensitive.
+
+Na consulta abaixo:
+Resultará em erro porque o campo nome deve ser agrupado usando o comando GROUP BY, uma vez que a função de agregação COUNT agrupa o ID.
+
+Qual a diferença entre LEFT JOIN e LEFT OUTER JOIN?
+Nenhuma. São o mesmo comando.
+
+Para trazer registros apenas de 1 tabela, qual comando é mais adequado?
+SELECT campos FROM tabela1

@@ -1,0 +1,29 @@
+Sobre Grant, é incorreto afirmar:
+Todas estão corretas.
+
+Para que um usuário se conecte no banco de dados PostgreSQL sem a necessidade de senha, o que precisamos configurar/editar?
+O method trust do usuário do banco de dados no arquivo pg_hba.conf
+
+Qual a localização padrão do arquivo postgresql.conf?
+Dentro do diretório de dados do PostgreSQL, também conhecido como PGDATA
+
+Schemas são:
+Um ou mais grupos de objetos (tabelas, funções, views, triggers, etc) dentro de bancos de dados.
+
+Para quê serve uma primary key:
+Para garantir que a coluna id seja um campo sequencial que nunca se repete.
+
+Para desassociar roles, qual comando a ser executado?
+REVOKE [role] FROM [role]
+
+Qual a finalidade do arquivo postgresql.conf?
+Armazenar todas as configurações do servidor PostgreSQL que são compartilhadas com todos os bancos de dados do cluster.
+
+Qual a porta padrão de conexão com o banco de dados PostgreSQL?
+5432
+
+Qual dos arquivos abaixo fazem parte da configuração de autenticação?
+password_encryption
+
+Uma role com a opção INHERIT possui quais características?
+Capacidade de herdar as permissões de outras roles.

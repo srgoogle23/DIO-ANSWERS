@@ -1,0 +1,29 @@
+Uma TEMP VIEW é?
+Uma view que estará disponível apenas na sessão ativa de cada usuário.
+
+Os comandos básicos de uma transação são:
+BEGIN, COMMIT, ROLLBACK
+
+Para desfazer os comandos de um código específico e retornar a um outro ponto da transação, devemos usar:
+ROLLBACK TO SAVEPOINT
+
+Para utilizar corretamente o código de idempotência de função com o OR REPLACE, devemos seguir quais regras?
+A função deve ter sempre o mesmo nome; A função deve ter os mesmos parâmetros e seus tipos de dados; A função deve retornar sempre o mesmo tipo de dado.
+
+São consideradas procedural language de uma função:
+SQL, PLPGSQL, PLJAVA, PLPHP
+
+Qual a diferença na criação de uma função com as opções SECURITY DEFINER e SECURITY INVOKER?
+SECURITY DEFINER executa a função com as permissões do usuário que criou a função. SECURITY INVOKER executa a função com as permissões do usuário está executando a função.
+
+Para criar uma função de somar que retornar um número, programadas na linguagem plpgsql, com as permissões do usuário que está executando a função, com idempotência e ignorando parâmetros nulos, qual comando devemos executar?
+CREATE OR REPLACE FUNCTION fc_somar(n1 INTEGER, n2 INTEGER) RETURNS INTEGER SECURITY INVOKER CALLED ON NULL INPUT LANGUAGE PLPGSQL AS $$ BEGIN RETURN n1 + n2; END; $$;
+
+Quais tipos de comandos são aceitos dentro de uma VIEW?
+SELECT, INSERT, UPDATE e DELETE
+
+Qual a condição para uma VIEW aceitar comandos de INSERT, UPDATE ou DELETE?
+Possuir apenas uma única tabela em seu conteúdo respeitando as regras de obrigatoriedade de cada coluna da tabela.
+
+A opção WITH LOCAL CHECK OPTION em uma VIEW tem qual finalidade?
+Validar comandos de INSERT, UPDATE ou DELETE conforme as condições da consulta dentro da VIEW chamada.
