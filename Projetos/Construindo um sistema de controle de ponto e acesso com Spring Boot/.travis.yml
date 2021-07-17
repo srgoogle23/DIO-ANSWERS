@@ -1,0 +1,9 @@
+before_install:
+ - chmod +x mvnw
+language: java
+jdk:
+  - oraclejdk8
+before_script:
+- mysql -u root -e 'CREATE DATABASE ponto_inteligente;'
+- mysql -u root -e "CREATE USER 'ponto_intelig'@'localhost' IDENTIFIED BY '1';"
+- mysql -u root -e "GRANT ALL ON ponto_inteligente.* TO 'ponto_intelig'@'localhost';"

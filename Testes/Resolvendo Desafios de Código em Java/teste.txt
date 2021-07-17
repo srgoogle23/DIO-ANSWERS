@@ -1,0 +1,15 @@
+Quais são os principais meios de pedir ajuda para realizar os desafios de código?
+Comunidade de Devs da DIO online e fórum do bootcamp referente ao desafio de código realizado.
+
+Qual a finalidade dos testes abertos e dos testes fechados?
+Os testes fechados permitem a validação do seu código em casos não previstos, verificando se ele atende a várias condições, assim como o mundo real. Já os testes abertos validam se o código funciona em situações minimamente previstas e permitem a verificação e correção dos erros antes da submissão envolvendo os testes fechados.
+
+Qual a finalidade da utilização do BufferedReader e StringTokenizer na questão resolvida?
+O BufferedReader criará um buffer (área para o armazenamento temporário de dados) a partir da entrada padrão do Java (System.in). O StringTokenizer, por sua vez, é uma abstração que facilitará a leitura dos dados de entrada no formato em questão (separado por espaços).
+
+De que forma os desafios de código exercitam o pensamento computacional?
+Exigindo a criação de uma solução algorítmica implementada com um conjunto de entradas e saídas esperadas.
+
+Qual a importância da utilização do parseInt?
+O parseInt é utilizado para armazenar nas variáveis “a” e “b” o dado como inteiro, pois ao contrário ele seria lido como uma String.
+
