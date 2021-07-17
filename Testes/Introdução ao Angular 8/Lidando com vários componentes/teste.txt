@@ -1,0 +1,30 @@
+O que é injeção de Dependência
+São objetos de serviço responsável por executar sua função, cuja sua instância é compartilhada para quem os chama.
+
+
+O que são Pipes
+Responsável por, receber, transformar e exibir uma informação para os usuários.
+
+Uma classe no Angular, poderá receber a injeção de dependência de um outro objeto via
+Através do construtor.
+
+Para acessar o método responsável pela transformação de um pipe, é necessário realizar a implementação da interface
+PipeTransform.
+
+Qual a função do código routerLink
+Navegar entre views através de um link de rota.
+
+Qual a função do RouterModule
+Habilita a navegação de uma view para outra pelo usuário.
+
+A anotação @Pipe é utilizada para
+Tornar uma classe elegível para ser um pipe.
+
+Qual o conceito de two-way data bind
+Liga uma propriedade do componente em duas direções (viewchange).
+
+Qual o conceito de one-way data bind
+Liga uma propriedade do componente em uma única direção (view).
+
+A anotação @Injectable é utilizada para
+Torna uma classe elegível para injeção de dependência.

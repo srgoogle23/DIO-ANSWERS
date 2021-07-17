@@ -1,0 +1,29 @@
+No decorator da anotação @NgModule, a propriedade exports é utilizada para:
+Exportar componentes/pipes internos do módulo para serem utilizados por outro módulo.
+
+Para realizar uma requisição HTTP, devemos utilizar a injeção de dependência da seguinte classe:
+HttpClient.
+
+Qual o conceito de Observable?
+Trata respostas de eventos assíncronos utilizando o padrão Publisher.
+
+A anotação @NgModule é utilizada para:
+Tornar uma classe elegível para ser um módulo.
+
+No decorator da anotação @NgModule, a propriedade declarations é utilizada para:
+Declarar os componentes/pipes internos do módulo em questão.
+
+No decorator da anotação @NgModule, a propriedade imports é utilizada para:
+Declarar outros módulos necessários para o comportamento interno do módulo em questão.
+
+Caso um Observable não seja subscrito, qual dos comportamentos abaixo estará correto:
+O evento do Observable não será executado.
+
+Qual o conceito de módulos em Angular?
+São contêineres, ou limitadores de contexto, para um bloco de código coeso de um área de domínio da aplicação.
+
+Qual a função do HttpClientModule?
+Provê todas as dependências necessárias para realizar uma requisição HTTP .
+
+Caso um componente seja declarado no módulo raiz (app.module) e em outro módulo, e este outro módulo seja importado pelo módulo raiz, qual das opções define esse evento?
+A aplicação será iniciada, mas não será possível utilizá-la, pois não é possível ter dois componentes declarados em módulos diferentes.

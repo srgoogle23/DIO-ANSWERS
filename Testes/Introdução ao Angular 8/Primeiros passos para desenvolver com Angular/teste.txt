@@ -1,0 +1,29 @@
+Qual a função do comando ng new?
+Criar um projeto.
+
+O que é um Decorator?
+Define uma classe como um componente, module, pipe, service, e seus metadados que determina como o mesmo deverá ser processado.
+
+As propriedades de básicas de um Componente são:
+Classe de Componente, HTML Template e um estilo específico.
+
+Qual a responsabilidade do arquivo package.json?
+Definir dependências necessárias para aplicação.
+
+Qual a responsabilidade do arquivo angular.json?
+Definir propriedades genéricas na aplicação como folhas de estilos, javascript, arquivo responsável por iniciar a aplicação main.ts, etc .
+
+A anotação @Component é utilizada para:
+Tornar uma classe elegível para ser um Componente.
+
+O que são componentes aninhados?
+São componentes que são adicionados em outro componente, passando ou não informações para este.
+
+A anotação @Input é utilizada para:
+Tornar uma propriedade de um componente elegível para receber um valor de um outro componente.
+
+Qual a função do comando ng serve?
+Iniciar a aplicação.
+
+O que é um Componente?
+Define a área de interface do usuário (UI), que permite a reutilização desse conjunto de funcionalidades.
