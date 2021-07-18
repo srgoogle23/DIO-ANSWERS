@@ -1,0 +1,29 @@
+É possível encontrar exemplos de como utilizar o Angular Material no site da biblioteca?
+Sim, no site do angular material possui vários exemplos de utilização.
+
+O que o método filter do RxJS faz?
+Nos retorna somente os registros que obedecem a condição previamente estabelecida.
+
+Qual é a função do pipe no RxJS?
+Ele faz com que seja possível chamar métodos do RxJS antes do retorno dos dados.
+
+O que é o Angular Material?
+É uma implementação do Material Design da Google.
+
+O RxJS já vem instalado nos projetos Angular?
+Sim, não precisamos fazer nenhuma configuração para ele funcionar.
+
+O que o método map do RxJS faz?
+Permite que nós manipulamos os valores do retorno do Observable.
+
+O que é o RxJS?
+O RxJS é uma biblioteca para programação reativa usando Observables.
+
+O Angular Material já vem instalado por padrão nos projetos Angular?
+Não, nós precisamos instalar ele no nosso projeto.
+
+Ao utilizarmos os componentes do Angular Material não podemos utilizar nenhum outro componente?
+Podemos utilizar qualquer outro componente, o Angular Material apenas nos entrega alguns componentes pronto para agilizar o nosso desenvolvimento.
+
+Eu preciso chamar o método subscribe para que um Observable execute a sua ação?
+Sim, o subscribe faz com que você se inscreva no Observable, e a partir desse momento o Observable vai executar sua ação.

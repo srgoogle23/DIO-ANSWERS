@@ -1,0 +1,29 @@
+Qual a versão do angular para nossa aplicação funcionar?
+Versão 8.
+
+Qual a versão mínima necessária do node.js para a nossa aplicação funcionar?
+Versão 11.
+
+O que iremos fazer no nosso projeto?
+Todas as alternativas estão corretas.
+
+Precisamos de um editor de texto?
+É obrigatório o uso de um editar e também foi recomendado utilizar o Visual Studio Code.
+
+Quais dessas bibliotecas nós NÃO iremos utilizar no nosso projeto?
+Bootstrap.
+
+Qual das seguintes afirmações NÃO diz respeito ao nosso projeto?
+O projeto possui uma API de integração com o site IMDb.
+
+O código fonte do curso completo está publicado em algum lugar da web?
+Sim, está salvo no Github.
+
+Vamos implementar paginação no projeto?
+Sim, iremos criar uma paginação com scroll infinito igual o Facebook.
+
+O nosso projeto possui back-end?
+Sim, porém iremos criar com mock utilizando o JSON-server.
+
+Quais cursos são recomendados terem sido feitos antes de realizar o curso intermediário?
+Básico de Angular e JavaScript ES6 Essencial.
