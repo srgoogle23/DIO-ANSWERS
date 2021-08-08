@@ -1,0 +1,30 @@
+É possível reduzir o número de requisições que fazemos ao back-end no filtro do campo texto que inserimos na listagem de filmes?
+Sim, podemos utilizar debounceTime do RxJS.
+
+O que é o RxJS?
+O RxJS é uma biblioteca para programação reativa usando Observables.
+
+Como saber que um campo está com erro?
+Cada campo possui uma propriedade chamada erros e nela tem um array com todos os erros do campo que estão acontecendo.
+
+Qual a função do JSON-Server?
+Criar chamadas REST para um back-end mock.
+
+Por questão de organização, qual é a melhor forma de ordenarmos os imports dentro do Angular?
+Primeiro os imports do Angular, depois de terceiros e por último os nossos.
+
+Como podemos transformar uma data para o formato brasileiro?
+O Angular possui um pipe pronto para isso, basta passar o pipe date e o formato desejado.
+
+O que acontece se tentarmos acessar uma URL inexistente no nosso projeto?
+Seremos redirecionados para a listagem dos filmes, pois especificamos isso no arquivo de rotas.
+
+O que é o Angular Material?
+É uma implementação do Material Design da Google.
+
+
+Neste curso, qual foi a versão do Angular utilizada?
+Versão 8.
+
+Qual das seguintes afirmações NÃO diz respeito ao nosso projeto?
+O projeto possui uma API de integração com o site IMDb.
