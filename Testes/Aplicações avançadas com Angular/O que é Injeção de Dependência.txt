@@ -1,0 +1,29 @@
+Qual o ponto negativo de alterar manualmente o comportamento do change detection dentro de um componente?
+Quanto maior o componente e sua árvore de componentes filhos, mais difícil é lidar com os eventos que marcam o componente para ser verificado e que removem ele da execução.
+
+Assinale a alternativa correta sobre micro sintaxe em diretivas estruturais.
+let define o valor implícito no contexto; a keyword usada na micro sintaxe é retirada do nome do Input.
+
+Assinale a alternativa incorreta.
+FormControl só existe quando trabalhamos com Reactive Forms.
+
+Qual das seguintes afirmações é verdade sobre a comunicação entre o create-todo component e o last-todos component na primeira solução para gerenciamento de estado mostrada no vídeo (MVC, componentes não compartilham informação, etc)?
+Não é a melhor implementação possível fazer o todo criado ser mandado para o dashboard component, para então ser passado para atualizar a lista no last-todos.
+
+Para testar Effects nós:
+Criamos Observables mock para a ação disparada e a ação esperada no retorno, então validamos se o resultado do Effect é o Observable que esperávamos receber.
+
+O que um teste unitário pode testar?
+Uma função pura.
+
+Para que serve um serviço no Angular?
+Compartilhar informação, dentre outras coisas, entre componentes, diretivas, serviços, etc.
+
+Considerando a estrutura abordada no vídeo, o que são páginas?
+Feature modules que são renderizados no router-outlet raiz da aplicação.
+
+Qual das seguintes frases a seguir, relacionadas a Zones, está incorreta?
+Não podemos executar códigos fora do NgZone.
+
+O que é injeção de dependência?
+Uma forma de uma classe receber um valor de um provedor, tal que essa classe não precisa se preocupar com sua inicialização.
